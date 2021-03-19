@@ -1,0 +1,43 @@
+body{
+	background-image: url(fondo.jpg);
+	background-size: cover;
+}
+.letra{
+	font-family: MS Gothic;
+	font-size: 200px;
+	animation-name: juli;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes juli{
+	0%{color: #000000;}
+	25%{color: #848484;}
+	50%{color: #BE81F7;}
+	100%{color: #8181F7;}
+}
+.foto{
+	position: absolute;
+	width: 707px;
+	height: 712px;
+	top: 300px;
+	left: 550px;
+	background-image: url(foto.png);
+	border: #5858FA 5px dotted;
+}
+.foto2{
+	position: absolute;
+	width: 707px;
+	height: 192px;
+	top: 1017px;
+	left: 550px;
+	background-image: url(foto2.jpg);
+	border: #5858FA 5px dotted;
+}
+.mensaje{
+	position: absolute;
+	width: 593px;
+	height: 412px;
+	top: 1300px;
+	left: 600px;
+	background-image: url(mensaje.jpg);
+}
